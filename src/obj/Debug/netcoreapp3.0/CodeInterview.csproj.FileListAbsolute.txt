@@ -1,0 +1,11 @@
+C:\git\personal\CodeInterview\src\obj\Debug\netcoreapp3.0\CodeInterview.csprojAssemblyReference.cache
+C:\git\personal\CodeInterview\src\obj\Debug\netcoreapp3.0\CodeInterview.AssemblyInfoInputs.cache
+C:\git\personal\CodeInterview\src\obj\Debug\netcoreapp3.0\CodeInterview.AssemblyInfo.cs
+C:\git\personal\CodeInterview\src\bin\Debug\netcoreapp3.0\CodeInterview.exe
+C:\git\personal\CodeInterview\src\bin\Debug\netcoreapp3.0\CodeInterview.deps.json
+C:\git\personal\CodeInterview\src\bin\Debug\netcoreapp3.0\CodeInterview.runtimeconfig.json
+C:\git\personal\CodeInterview\src\bin\Debug\netcoreapp3.0\CodeInterview.runtimeconfig.dev.json
+C:\git\personal\CodeInterview\src\bin\Debug\netcoreapp3.0\CodeInterview.dll
+C:\git\personal\CodeInterview\src\bin\Debug\netcoreapp3.0\CodeInterview.pdb
+C:\git\personal\CodeInterview\src\obj\Debug\netcoreapp3.0\CodeInterview.dll
+C:\git\personal\CodeInterview\src\obj\Debug\netcoreapp3.0\CodeInterview.pdb

@@ -8,6 +8,12 @@ The purpose of this repository is to serve as a place to review some of the basi
 - Bubble Sort
   - Time: O()
   - Memory: O()
+- Bucket Sort
+  - Time: O()
+  - Memory: O()
+- Heap Sort
+  - Time: O()
+  - Memory: O()
 - Insertion Sort
   - Time: O()
   - Memory: O()

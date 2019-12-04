@@ -31,3 +31,5 @@ The purpose of this repository is to serve as a place to review some of the basi
   - Space Complexity: O()
 
 ## Design Patterns
+
+## Data Structures

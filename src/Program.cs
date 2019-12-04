@@ -10,6 +10,8 @@ namespace CodeInterview
         {
             List<ISortingAlgorithm> sortingAlgorithms = new List<ISortingAlgorithm>();
             sortingAlgorithms.Add(new BubbleSort());
+            sortingAlgorithms.Add(new BucketSort());
+            sortingAlgorithms.Add(new HeapSort());
             sortingAlgorithms.Add(new InsertionSort());
             sortingAlgorithms.Add(new MergeSort());
             sortingAlgorithms.Add(new QuickSort());

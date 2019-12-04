@@ -37,23 +37,38 @@ Space Complexity: O()
 
 ## Design Patterns
 **Adapter**
+
 **Bridge**
+
 **Builder**
+
 **Decorator**
+
 **Factory**
+
 **Proxy**
+
 **Singleton**
+
 **Strategy**
+
 **Visior**
 
 ## Data Structures
 **Binary Tree**
+
 **Doubly Linked List**
+
 **Graph**
+
 **Hash Table**
+
 **Linked List**
+
 **Queue**
+
 **Stack**
+
 **Tree**
 
 ## Problems

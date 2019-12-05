@@ -71,6 +71,13 @@ Space Complexity: O()
 
 **Tree**
 
+## Logic Gates
+**AND**
+
+**OR**
+
+**XOR**
+
 ## Problems
 **Design a Parking Lot**
 

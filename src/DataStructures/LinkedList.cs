@@ -1,39 +1,76 @@
+using System;
+using CodeInterview.Utility;
+
 namespace CodeInterview.DataStructures
 {
-    public class LinkedList
+    public class LinkedList<T>
     {
-        public LinkedListNode Start { get; private set; }
-
-        public LinkedListNode Last { get; private set; }
-
-        public void AddNode(LinkedListNode node)
+        public LinkedList(IWriter writer)
         {
-            if(Start == null)
+            _writer = writer;
+        }
+
+        private LinkedListNode<T> Head { get; set; }
+
+        private LinkedListNode<T> Tail { get; set; }
+
+        public void AddNode(T value)
+        {
+            var newNode = new LinkedListNode<T>(value);
+            
+            AddNode(newNode);
+        }
+
+        public void AddNode(LinkedListNode<T> node)
+        {
+            if(Head == null)
             {
-                Start = node;
-                Last = node;
+                Head = node;
+                Tail = node;
                 return;
             }
 
-            Last.Next = node;
-            Last = node;
+            Tail.Next = node;
+            Tail = node;
         }
 
-        public LinkedListNode RemoveNode()
+        public LinkedListNode<T> RemoveNode()
         {
-            if(Start == null)
+            throw new NotImplementedException();
+        }
+
+        public bool DoesLoopExist()
+        {
+            if(Head == null)
             {
-                return null;
+                return false;
             }
 
-            
+            throw new NotImplementedException();
         }
+
+        public void Print()
+        {
+            var current = Head;
+            while(current != null)
+            {
+                _writer.Write(current.Value.ToString() + " -> ");
+                current = current.Next;
+            }
+        }
+
+        private IWriter _writer;
     }
 
-    public class LinkedListNode
+    public class LinkedListNode<T>
     {
-        public int Value { get; set; }
+        public LinkedListNode(T value)
+        {
+            Value = value;   
+        }
 
-        public LinkedListNode Next { get; set; }
+        public T Value { get; }
+
+        public LinkedListNode<T> Next { get; set; }
     }
 }

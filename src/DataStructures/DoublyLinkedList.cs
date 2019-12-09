@@ -27,7 +27,20 @@ namespace CodeInterview.DataStructures
                 return null;
             }
 
-            
+            if(Last == null)
+            {
+                return null;
+            }
+
+            if(Last.Previous == null)
+            {
+                var temp = Last;
+                Start = null;
+                Last = null;
+                return temp;
+            }
+
+            return null;
         }
     }
 

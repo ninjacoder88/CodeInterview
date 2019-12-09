@@ -71,6 +71,8 @@ Space Complexity: O()
 
 **Tree**
 
+**Trie**
+
 ## Logic Gates
 **AND**
 
@@ -80,10 +82,23 @@ Space Complexity: O()
 
 ## Problems
 **Design a Parking Lot**
-
+Given some contraints, (size of space), design a parking lot
 
 **Find the Squares**
-Given a set of points on a plane, determine how many squares exist
+Given a set of points on a plane, determine how many squares exist (include askew squares)
 
 **Find the Pair**
 Given a set of numbers, find a pair where the sum equals a provided value
+
+**Find All The Words On A Boogle Board**
+Given a Boggle board 4x4 of some set of letters find all of the words
+
+**Find Overlapping Squares**
+Given a set of points representing squares on a plane, find the overlaping squares as well as the area of the overlap
+
+**Draw a circle**
+
+**Longest Palindromic Subsequnce**
+
+## Tips
+- Practice writing code on a whiteboard

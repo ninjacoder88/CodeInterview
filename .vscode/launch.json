@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/src/bin/Debug/netcoreapp3.0/Sorting.dll",
+            "program": "${workspaceFolder}/src/bin/Debug/netcoreapp3.0/CodeInterview.dll",
             "args": [],
             "cwd": "${workspaceFolder}/src",
             "console": "internalConsole",

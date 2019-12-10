@@ -1,7 +1,7 @@
 using System;
 using CodeInterview.Common.Interfaces;
 
-namespace CodeInterview.DataStructures
+namespace CodeInterview.DataStructures.LinkedList
 {
     public class LinkedList<T>
     {
@@ -60,17 +60,5 @@ namespace CodeInterview.DataStructures
         }
 
         private ILogger _logger;
-    }
-
-    public class LinkedListNode<T>
-    {
-        public LinkedListNode(T value)
-        {
-            Value = value;   
-        }
-
-        public T Value { get; }
-
-        public LinkedListNode<T> Next { get; set; }
     }
 }

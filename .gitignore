@@ -2,4 +2,10 @@ src/CodeInterview/obj/
 src/CodeInterview/bin/
 src/CodeInterview.Common/bin/
 src/CodeInterview.Common/obj/
+src/CodeInterview.DataStructures/bin/
+src/CodeInterview.DataStructures/obj/
+src/CodeInterview.DesignPatterns/bin/
+src/CodeInterview.DesignPatterns/obj/
+src/CodeInterview.SortingAlgorithms/bin/
+src/CodeInterview.SortingAlgorithms/obj/
 src/.vs/

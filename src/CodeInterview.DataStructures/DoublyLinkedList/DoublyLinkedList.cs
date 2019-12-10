@@ -1,12 +1,14 @@
-namespace CodeInterview.DataStructures
+using System;
+
+namespace CodeInterview.DataStructures.DoublyLinkedList
 {
-    public class DoublyLinkedList
+    public class DoublyLinkedList<T>
     {
-        public DoublyLinkedListNode Start { get; private set; }
+        public DoublyLinkedListNode<T> Start { get; private set; }
 
-        public DoublyLinkedListNode Last { get; private set; }
+        public DoublyLinkedListNode<T> Last { get; private set; }
 
-        public void AddNode(DoublyLinkedListNode node)
+        public void AddNode(DoublyLinkedListNode<T> node)
         {
             if(Start == null)
             {
@@ -20,7 +22,7 @@ namespace CodeInterview.DataStructures
             Last = node;
         }
 
-        public DoublyLinkedListNode RemoveNode()
+        public DoublyLinkedListNode<T> RemoveNode()
         {
             if(Start == null)
             {
@@ -40,21 +42,7 @@ namespace CodeInterview.DataStructures
                 return temp;
             }
 
-            return null;
+            throw new NotImplementedException();
         }
-    }
-
-    public class DoublyLinkedListNode
-    {
-        public DoublyLinkedListNode(int value)
-        {
-            Value = value;
-        }
-
-        public int Value { get; }
-
-        public DoublyLinkedListNode Previous { get; set; }
-
-        public DoublyLinkedListNode Next { get; set; }
     }
 }

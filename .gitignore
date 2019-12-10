@@ -1,2 +1,5 @@
-src/obj/*
-src/bin/*
+src/CodeInterview/obj/
+src/CodeInterview/bin/
+src/CodeInterview.Common/bin/
+src/CodeInterview.Common/obj/
+src/.vs/

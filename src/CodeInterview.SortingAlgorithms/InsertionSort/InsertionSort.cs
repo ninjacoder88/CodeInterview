@@ -1,10 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using CodeInterview.SortingAlgorithms.Interfaces;
 
 namespace CodeInterview.SortingAlgorithms.Algorithms
 {
-    public class InsertionSort : ISortingAlgorithm
+    public class InsertionSort
     {
         public IEnumerable<int> Sort(IEnumerable<int> enumerable)
         {

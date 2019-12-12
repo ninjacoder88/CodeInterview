@@ -1,10 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using CodeInterview.SortingAlgorithms.Interfaces;
 
 namespace CodeInterview.SortingAlgorithms.Algorithms
 {
-    public class BubbleSort : ISortingAlgorithm
+    public class BubbleSort
     {
         public IEnumerable<int> Sort(IEnumerable<int> enumerable)
         {

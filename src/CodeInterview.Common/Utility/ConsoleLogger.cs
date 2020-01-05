@@ -7,7 +7,7 @@ namespace CodeInterview.Common.Utility
     {
         public void Log(string text)
         {
-            Console.Write(text);
+            Console.WriteLine(text);
         }
     }
 }

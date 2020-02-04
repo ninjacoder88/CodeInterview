@@ -100,5 +100,8 @@ Given a set of points representing squares on a plane, find the overlaping squar
 
 **Longest Palindromic Subsequnce**
 
+**Remove Nodes from a Binary Tree**
+Given a binary tree and a node to be deleted, remove the node from the tree. If the tree is fractured due to the removal return both trees
+
 ## Tips
 - Practice writing code on a whiteboard
